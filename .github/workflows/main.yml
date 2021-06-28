@@ -19,7 +19,7 @@ jobs:
     - run: npm install
     - run: npm run build
     # 打包压缩为release.tgz
-    - run: tar -zcvf release.tgz build package.json pm2.config.js
+    - run: tar -zcvf release.tgz build package.json pm2.config.json
 
     # 发布 Release
     - name: Create Release # 创建Release，可以在仓库看到一个个版本
