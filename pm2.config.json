@@ -1,0 +1,8 @@
+{
+  "apps": [
+    {
+      "name": "apple-basket-mobx",
+      "script": "./server/index.js"
+    }
+  ]
+}
