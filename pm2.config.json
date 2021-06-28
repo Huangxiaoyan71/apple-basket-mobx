@@ -2,8 +2,7 @@
   "apps": [
     {
       "name": "apple-basket-mobx",
-      "script": "npm",
-      "args": "start"
+      "script": "./server/index.js"
     }
   ]
 }
